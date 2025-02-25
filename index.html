@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <form>
+
+      <div class="search-box">
+        <i class="fa-solid fa-location-dot"  aria-hidden="true"></i>
+        <input type="search" placeholder="Enter Location">
+        <button class="fa-solid fa-magnifying-glass" id="search-btn"  aria-hidden="true"></button>
+      </div>
+
+      <div class="img-con">
+        <img src="./images/cloud.png" alt="" class="weather-img">
+      </div>
+      
+      <div class="temp-con">
+        <p class="temp">
+          27 <sup>°C</sup>
+        </p>
+        <p class="temp-desc">
+          Scattered Clouds
+        </p>
+      </div>
+
+      <div class="desc">
+
+        <div class="humdity">
+          <i class="fa-solid fa-water"></i>
+          <div class="hum-con">
+            <p>75%</p>
+            <p>Humdity</p>
+          </div>
+        </div>
+          <div class="wind">
+            <i class="fa-solid fa-wind"></i>
+            <div class="wind-con">
+              <p>
+                3Km/h
+              </p>
+              <span class="wind-speed">
+                wind Speed
+              </span>
+            </div>
+          </div>
+      </div>
+    </form>
+
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/1f602204ab.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
